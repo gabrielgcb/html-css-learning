@@ -80,29 +80,6 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-span.link-dan-morrill {
-    background-color: #10b65b;
-    font-weight: bold;
-    color: #06130b;
-}
-
-span.link-dan-morrill:hover {
-    text-decoration: underline;
-}
-
-span.link-dan-morrill::after {
-    content: '⚭';
-}
-
-span.link-dan-morrill > a {
-    text-decoration: none;
-    color: #06130b;
-}
-
-span.link-dan-morrill > a:active {
-    color:#0a2718;
-}
-
 section#historia {
     margin: 0px;
 }
@@ -124,6 +101,34 @@ article > h2 {
     color:#0a2718;
     background-image: linear-gradient(to right, #14be60b0, white);
     padding: 1px 1px 1px 5px;
+}
+
+a.link-intro {
+    color: #0b793c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.link-intro:hover {
+    text-decoration: underline;
+}
+
+a.link {
+    font-weight: bold;
+    color:#0b793c;
+    text-decoration: none;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+a.link::after {
+    content: '⚭';
+}
+
+a.link:active {
+    color:#afc43c;
 }
 
 div > picture {
